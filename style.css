@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,6 @@ body {
   background-color: #f5f5f5;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -69,7 +68,6 @@ body {
   cursor: pointer;
 }
 
-/* Recharge Section */
 .recharges-section {
   max-width: 1300px;
   margin: 30px auto;
@@ -85,7 +83,6 @@ body {
   font-weight: bold;
 }
 
-/* Icons in one row */
 .recharge-options {
   display: flex;
   justify-content: space-between;
@@ -109,8 +106,6 @@ body {
   font-size: 14px;
   color: #333;
 }
-
-/* Cashback Banner - Below Icons */
 .cashback-banner {
   background-color: #00baf2;
   color: white;
@@ -158,7 +153,6 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* ✅ Top Tabs (Flights, Bus, etc.) */
 .tabs {
   display: flex;
   align-items: center;
@@ -189,7 +183,6 @@ body {
   margin: 15px 0;
 }
 
-/* 🔷 Form Row: sab ek line me aligned */
 .form-row {
   display: flex;
   align-items: flex-end;
@@ -199,7 +192,6 @@ body {
   margin-bottom: 25px;
 }
 
-/* 🔷 Form Group: Each field (From, To, etc.) */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -208,14 +200,12 @@ body {
   flex: 1;
 }
 
-/* 🔷 Label */
 .form-group label {
   margin-bottom: 6px;
   color: #666;
   font-weight: 500;
 }
 
-/* 🔷 Input Style Boxes */
 .location,
 .date,
 .return,
@@ -238,7 +228,6 @@ body {
   min-width: 180px;
 }
 
-/* 🔷 Search Flights Button - Blue like Paytm */
 .search-btn {
   background-color: #00baf2;
   color: white;
@@ -256,15 +245,13 @@ body {
   background-color: #0095cc;
 }
 
-/* 🔷 Tags container: flex layout */
 .tags {
   display: flex;
   gap: 15px;
-  flex-wrap: wrap; /* wrap if small screen */
+  flex-wrap: wrap; 
   margin-top: 10px;
 }
 
-/* 🔷 Individual Tag Box */
 .tag {
   background: #f2f4f8;
   padding: 10px 16px;
@@ -278,7 +265,6 @@ body {
   color: #111;
 }
 
-/* 🔷 Offer Text (small) */
 .tag small {
   display: block;
   margin-top: 4px;
@@ -286,7 +272,6 @@ body {
   color: #555;
   font-weight: normal;
 }
-/* ✅ Investment Section */
 .investment-section {
   max-width: 1300px;
   margin: 40px auto;
@@ -368,7 +353,6 @@ body {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Floating Boxes */
 .floating-box {
   position: absolute;
   background-color: white;
@@ -515,16 +499,14 @@ body {
   flex-wrap: wrap;
   background-color: #ffffff;
   border-radius: 20px;
-  padding: 50px 60px;           /* fixed: balanced padding */
-  margin: 25px auto;            /* fixed: proper top/bottom margin */
+  padding: 50px 60px;          
+  margin: 25px auto;           
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   max-width: 1300px;
   width: 100%;
   gap: 40px;
 }
 
-
-/* LEFT SIDE */
 .upi-left {
   flex: 1;
   min-width: 300px;
@@ -546,7 +528,6 @@ body {
 .upi-section {
   margin-left: auto;
   margin-right: auto;
- /* Increase only left padding */
 }
 
 .highlight {
@@ -574,7 +555,6 @@ body {
   transform: scale(1.05);
 }
 
-/* RIGHT SIDE - People Image */
 .people {
   flex: 1;
   min-width: 300px;
@@ -590,7 +570,7 @@ body {
   border-radius: 20px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
-/* Footer Container */
+
 .paytm-footer {
   font-family: 'Segoe UI', sans-serif;
   padding: 30px 50px;
@@ -599,7 +579,6 @@ body {
   border-top: 1px solid #ddd;
 }
 
-/* Top Navigation */
 .footer-nav {
   border-bottom: 1px solid #ccc;
   margin-bottom: 30px;
@@ -638,7 +617,6 @@ body {
   color: #0070f3;
 }
 
-/* Accordion Section */
 .accordion {
   border-top: 1px solid #ddd;
   margin-top: 10px;
@@ -662,8 +640,6 @@ body {
 .accordion-title:hover {
   color: #0070f3;
 }
-
-/* Footer Bottom Section */
 .footer-bottom {
   border-top: 1px solid #ccc;
   margin-top: 20px;
@@ -676,7 +652,6 @@ body {
   color: #666;
 }
 
-/* Social Media Row */
 .social-line {
   display: flex;
   align-items: center;
